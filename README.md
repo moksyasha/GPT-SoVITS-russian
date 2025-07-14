@@ -2,18 +2,18 @@
 
 <h1>FORK https://github.com/RVC-Boss/GPT-SoVITS</h1>
 A Powerful Few-shot Voice Conversion and Text-to-Speech WebUI with Russian support.<br><br>
-Added support for russian language in train/inference scripts + example of train 60 hours
-CHANGES:
-1. Added g2p for russian with ruaccent, ruphone by den4ik for rus.
-2. Phoneme align with user-bge-3.
-(/develop/datasets/short_dataset/common_voice_ru_32263664.mp3	vʲ e tʲ v ɨ nʲ e z n 'a jɪ tʲ e .	[3, 2, 2, 6, 1]	ведь вы не знаете.)
-3. Changed chinese hubert to multilingual WavVL.
-4. Upd configs. To train - download all models, open webui.py, prepare own datasets, start train on page finetune.
+Added support for russian language in train/inference scripts + example of train 60 hours<br>
+CHANGES:<br>
+1. Added g2p for russian with ruaccent, ruphone by den4ik for rus.<br>
+2. Phoneme align with user-bge-3.<br>
+(/develop/datasets/short_dataset/common_voice_ru_32263664.mp3	vʲ e tʲ v ɨ nʲ e z n 'a jɪ tʲ e .	[3, 2, 2, 6, 1]	ведь вы не знаете.)<br>
+3. Changed chinese hubert to multilingual WavVL.<br>
+4. Upd configs. To train - download all models, open webui.py, prepare own datasets, start train on page finetune.<br><br>
 
-Examples:
-/GPT-SoVITS/GPT_SoVITS/output_clear_e80_e40_09-52-10.wav (60 hours of train data (synth+commonvoice))
+Examples:<br>
+<audio controls src="https://github.com/moksyasha/GPT-SoVITS-russian/raw/refs/heads/main/GPT_SoVITS/output_clear_e80_e40_09-52-10.wav"></audio> (60 hours of train data (synth+commonvoice))
 </div>
-
+<br><br><br>
 ---
 
 ## Features:
