@@ -1,0 +1,6 @@
+{
+    "name": "CharacterTokenizer",
+    "vocab_file": "vocab.json",
+    "model_max_length": 2048,
+    "size": 668
+}
