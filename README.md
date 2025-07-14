@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
 
 <h1>FORK https://github.com/RVC-Boss/GPT-SoVITS</h1>
 A Powerful Few-shot Voice Conversion and Text-to-Speech WebUI with Russian support.<br><br>
@@ -11,7 +11,7 @@ CHANGES:<br>
 4. Upd configs. To train - download all models, open webui.py, prepare own datasets, start train on page finetune.<br><br>
 
 Examples:<br>
-<audio controls src="https://github.com/moksyasha/GPT-SoVITS-russian/raw/refs/heads/main/GPT_SoVITS/output_clear_e80_e40_09-52-10.wav"></audio> (60 hours of train data (synth+commonvoice))
+<audio controls src="https://github.com/moksyasha/GPT-SoVITS-russian/raw/main/GPT_SoVITS/output_clear_e80_e40_09-52-10.wav"></audio>
 </div>
 <br><br><br>
 ---
