@@ -1,17 +1,25 @@
 <div align="left">
 
-<h1>FORK https://github.com/RVC-Boss/GPT-SoVITS</h1>
-A Powerful Few-shot Voice Conversion and Text-to-Speech WebUI with Russian support.<br><br>
-Added support for russian language in train/inference scripts + example of train 60 hours<br>
-CHANGES:<br>
-1. Added g2p for russian with ruaccent, ruphone by den4ik for rus.<br>
-2. Phoneme align with user-bge-3.<br>
-(/develop/datasets/short_dataset/common_voice_ru_32263664.mp3	vʲ e tʲ v ɨ nʲ e z n 'a jɪ tʲ e .	[3, 2, 2, 6, 1]	ведь вы не знаете.)<br>
-3. Changed chinese hubert to multilingual WavVL.<br>
-4. Upd configs. To train - download all models, open webui.py, prepare own datasets, start train on page finetune.<br><br>
+<h1>FORK of <a href="https://github.com/RVC-Boss/GPT-SoVITS">GPT-SoVITS</a></h1>
 
-Examples:<br>
-<audio controls src="https://github.com/moksyasha/GPT-SoVITS-russian/raw/main/GPT_SoVITS/output_clear_e80_e40_09-52-10.wav"></audio>
+<p><strong>🎙️ A powerful few-shot Voice Conversion and Text-to-Speech WebUI with Russian language support.</strong></p>
+
+<p>🔧 <strong>Changes in this fork:</strong></p>
+<ul>
+  <li>Added Russian language support to training and inference scripts.</li>
+  <li>Example training with 60 hours of Russian speech data.</li>
+  <li>Integrated Russian G2P (ruaccent, ruphone) by den4ik.</li>
+  <li>Phoneme alignment using <code>user-bge-3</code>.</li>
+  <li>Replaced Chinese HuBERT with multilingual WavLM.</li>
+  <li>Updated configs — to train: download models, launch <code>webui.py</code>, prepare your own dataset, and start training via the <strong>finetune</strong> page.</li>
+</ul>
+
+<p><strong>Train example:</strong></p>
+<audio controls>
+  <source src="https://github.com/moksyasha/GPT-SoVITS-russian/raw/main/GPT_SoVITS/output_clear_e80_e40_09-52-10.wav" type="audio/wav">
+  Your browser does not support the audio element. <a href="https://github.com/moksyasha/GPT-SoVITS-russian/raw/main/GPT_SoVITS/output_clear_e80_e40_09-52-10.wav">Download here</a>.
+</audio>
+
 </div>
 <br><br><br>
 ---
